@@ -1,0 +1,173 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1718032608
+Gem.gd::GDScript::-1::1717954387::0::1::::<>Area2D<>::
+icon.svg::CompressedTexture2D::1509607808169525326::1716583638::1716583647::1::::<><>::
+MainMenu.gd::GDScript::-1::1717954726::0::1::::<>Node2D<>::
+tooth_man.gd::GDScript::-1::1717954387::0::1::::<>CharacterBody2D<>::
+tooth_man.tscn::PackedScene::7889062752338988799::1717954745::0::1::::<><>::uid://th8sbve5xvg5::::res://captin clown game resources/Fierce Tooth/enemy-deadth.png<>res://tooth_man.gd<>uid://o66xs0wjgi7u::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 01.png<>uid://wuc8fnt73y3e::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 02.png<>uid://c7gjy7wkfstgr::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 03.png<>uid://bwqfhncai12wh::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 04.png<>uid://buwimqpmcws1s::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 05.png<>uid://djmx7djflkpqv::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 06.png<>uid://cj4o3p010ijkq::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 07.png<>uid://p5yk645oe4lk::::res://captin clown game resources/Fierce Tooth/01-Idle/Idle 08.png<>uid://bhnysibsr2lc5::::res://captin clown game resources/Fierce Tooth/02-Run/Run 01.png<>uid://dp7qfujx8od10::::res://captin clown game resources/Fierce Tooth/02-Run/Run 02.png<>uid://kwrwyf116lo8::::res://captin clown game resources/Fierce Tooth/02-Run/Run 03.png<>uid://brruskibei5a8::::res://captin clown game resources/Fierce Tooth/02-Run/Run 04.png<>uid://cwvw1sv2wusu4::::res://captin clown game resources/Fierce Tooth/02-Run/Run 05.png<>uid://bro5tw1v4s3wu::::res://captin clown game resources/Fierce Tooth/02-Run/Run 06.png<>uid://bmlnqjnrmpado::::res://captin clown game resources/audio/sfx/sfx_sounds_fanfare3.wav
+::res://audioManager/::1717954745
+background_audio.tscn::PackedScene::1986828119282599396::1717954745::0::1::::<><>::uid://dmxul3wjkysof::::res://captin clown game resources/audio/music/stage_2.ogg
+::res://captin clown game resources/::1716583854
+::res://captin clown game resources/audio/::1716583853
+::res://captin clown game resources/audio/music/::1716583854
+stage_2.ogg::AudioStreamOggVorbis::8050244351730097705::1716583853::1716583854::1::::<><>::
+stage_select.ogg::AudioStreamOggVorbis::7483541585264973444::1716583853::1716583854::1::::<><>::
+::res://captin clown game resources/audio/sfx/::1716583855
+sfx_coin_single1.wav::AudioStreamWAV::8537825437730455928::1716583853::1716583855::1::::<><>::
+sfx_movement_footsteps5.wav::AudioStreamWAV::6282590932621834923::1716583853::1716583855::1::::<><>::
+sfx_movement_jump1.wav::AudioStreamWAV::307758514695676821::1716583853::1716583855::1::::<><>::
+sfx_sounds_fanfare3.wav::AudioStreamWAV::3252213349834226188::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/::1716583853
+::res://captin clown game resources/Captain Clown/01-Idle/::1716583855
+Idle 01.png::CompressedTexture2D::1879171220595067406::1716583853::1716583855::1::::<><>::
+Idle 02.png::CompressedTexture2D::5060519962590085029::1716583853::1716583855::1::::<><>::
+Idle 03.png::CompressedTexture2D::6328880385988672863::1716583853::1716583855::1::::<><>::
+Idle 04.png::CompressedTexture2D::717364753502050101::1716583853::1716583855::1::::<><>::
+Idle 05.png::CompressedTexture2D::5220363007233454788::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/02-Run/::1716583855
+Run 01.png::CompressedTexture2D::1725111303733355798::1716583853::1716583855::1::::<><>::
+Run 02.png::CompressedTexture2D::3848158159202965015::1716583853::1716583855::1::::<><>::
+Run 03.png::CompressedTexture2D::6681550957693932910::1716583853::1716583855::1::::<><>::
+Run 04.png::CompressedTexture2D::7787464669775384808::1716583853::1716583855::1::::<><>::
+Run 05.png::CompressedTexture2D::218827740988646125::1716583853::1716583855::1::::<><>::
+Run 06.png::CompressedTexture2D::7802643268981438787::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/03-Jump/::1716583855
+Jump 01.png::CompressedTexture2D::2855838264812234732::1716583853::1716583855::1::::<><>::
+Jump 02.png::CompressedTexture2D::2994470519310910026::1716583853::1716583855::1::::<><>::
+Jump 03.png::CompressedTexture2D::6266396413410814121::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/04-Fall/::1716583855
+Fall 01.png::CompressedTexture2D::4152412839472490489::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/05-Ground/::1716583855
+Ground 01.png::CompressedTexture2D::3084097572495664590::1716583853::1716583855::1::::<><>::
+Ground 02.png::CompressedTexture2D::8162347624655186937::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/06-Hit/::1716583855
+Hit 01.png::CompressedTexture2D::6189071547796915594::1716583853::1716583855::1::::<><>::
+Hit 02.png::CompressedTexture2D::2411005324843334577::1716583853::1716583855::1::::<><>::
+Hit 03.png::CompressedTexture2D::789100601508421332::1716583853::1716583855::1::::<><>::
+Hit 04.png::CompressedTexture2D::3687740068066791792::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/07-Dead Hit/::1716583855
+Dead Hit 01.png::CompressedTexture2D::6658274853553170988::1716583853::1716583855::1::::<><>::
+Dead Hit 02.png::CompressedTexture2D::4565107645721972962::1716583853::1716583855::1::::<><>::
+Dead Hit 03.png::CompressedTexture2D::2492863074073147301::1716583853::1716583855::1::::<><>::
+Dead Hit 04.png::CompressedTexture2D::2336556870945254916::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Captain Clown/08-Dead Ground/::1716583855
+Dead Ground 01.png::CompressedTexture2D::8979419726177664390::1716583853::1716583855::1::::<><>::
+Dead Ground 02.png::CompressedTexture2D::7808834565135122440::1716583853::1716583855::1::::<><>::
+Dead Ground 03.png::CompressedTexture2D::713860641065256723::1716583853::1716583855::1::::<><>::
+Dead Ground 04.png::CompressedTexture2D::770350415875735719::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/::1716583854
+enemy-deadth.png::CompressedTexture2D::1350074563639618326::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/01-Idle/::1716583855
+Idle 01.png::CompressedTexture2D::1048563806396144948::1716583853::1716583855::1::::<><>::
+Idle 02.png::CompressedTexture2D::1585622763908675612::1716583853::1716583855::1::::<><>::
+Idle 03.png::CompressedTexture2D::7031861657510880073::1716583853::1716583855::1::::<><>::
+Idle 04.png::CompressedTexture2D::3963922059220841775::1716583853::1716583855::1::::<><>::
+Idle 05.png::CompressedTexture2D::3836121896606506974::1716583853::1716583855::1::::<><>::
+Idle 06.png::CompressedTexture2D::7817187984824475217::1716583853::1716583855::1::::<><>::
+Idle 07.png::CompressedTexture2D::5465308782809711832::1716583853::1716583855::1::::<><>::
+Idle 08.png::CompressedTexture2D::1116240727362868212::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/02-Run/::1716583855
+Run 01.png::CompressedTexture2D::2906069274652023030::1716583853::1716583855::1::::<><>::
+Run 02.png::CompressedTexture2D::8279136260093400761::1716583853::1716583855::1::::<><>::
+Run 03.png::CompressedTexture2D::748377492814299457::1716583853::1716583855::1::::<><>::
+Run 04.png::CompressedTexture2D::3615972469147351865::1716583853::1716583855::1::::<><>::
+Run 05.png::CompressedTexture2D::6361731043858718125::1716583853::1716583855::1::::<><>::
+Run 06.png::CompressedTexture2D::3610388950635931632::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/03-Jump/::1716583855
+Jump 01.png::CompressedTexture2D::5857758241500300050::1716583853::1716583855::1::::<><>::
+Jump 02.png::CompressedTexture2D::8931595664964054541::1716583853::1716583855::1::::<><>::
+Jump 03.png::CompressedTexture2D::8765676206911911409::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/04-Fall/::1716583855
+Fall 01.png::CompressedTexture2D::6013448865030355370::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/05-Ground/::1716583855
+Ground 01.png::CompressedTexture2D::5133674371597669659::1716583853::1716583855::1::::<><>::
+Ground 02.png::CompressedTexture2D::608764095156976284::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/06-Anticipation/::1716583855
+Anticipation 01.png::CompressedTexture2D::330656593069401926::1716583853::1716583855::1::::<><>::
+Anticipation 02.png::CompressedTexture2D::1434324242822868955::1716583853::1716583855::1::::<><>::
+Anticipation 03.png::CompressedTexture2D::2624917812906033473::1716583853::1716583855::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/07-Attack/::1716583855
+Attack 01.png::CompressedTexture2D::755905751417320397::1716583853::1716583855::1::::<><>::
+Attack 02.png::CompressedTexture2D::3203496864948167144::1716583853::1716583855::1::::<><>::
+Attack 03.png::CompressedTexture2D::3641070212411280381::1716583853::1716583855::1::::<><>::
+Attack 04.png::CompressedTexture2D::3221365808382636031::1716583853::1716583854::1::::<><>::
+Attack 05.png::CompressedTexture2D::8861003495114315752::1716583853::1716583854::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/08-Hit/::1716583854
+Hit 01.png::CompressedTexture2D::2568434182333431763::1716583853::1716583854::1::::<><>::
+Hit 02.png::CompressedTexture2D::6794326825745938889::1716583853::1716583854::1::::<><>::
+Hit 03.png::CompressedTexture2D::8339712538440477947::1716583853::1716583854::1::::<><>::
+Hit 04.png::CompressedTexture2D::632950537933347599::1716583853::1716583854::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/09-Dead Hit/::1716583854
+Dead Hit 01.png::CompressedTexture2D::7926626736706819777::1716583853::1716583854::1::::<><>::
+Dead Hit 02.png::CompressedTexture2D::5991154069188325406::1716583853::1716583854::1::::<><>::
+Dead Hit 03.png::CompressedTexture2D::4107631596869874921::1716583853::1716583854::1::::<><>::
+Dead Hit 04.png::CompressedTexture2D::7491394966422647260::1716583853::1716583854::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/10-Dead Ground/::1716583854
+Dead Ground 01.png::CompressedTexture2D::7851139361056114099::1716583853::1716583854::1::::<><>::
+Dead Ground 02.png::CompressedTexture2D::5956176448373831710::1716583853::1716583854::1::::<><>::
+Dead Ground 03.png::CompressedTexture2D::5761085296173117643::1716583854::1716583854::1::::<><>::
+Dead Ground 04.png::CompressedTexture2D::6350259176521329936::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/Fierce Tooth/11-Attack Effect/::1716583854
+Attack Effect 01.png::CompressedTexture2D::8818459496065625910::1716583854::1716583854::1::::<><>::
+Attack Effect 02.png::CompressedTexture2D::280461931177863097::1716583854::1716583854::1::::<><>::
+Attack Effect 03.png::CompressedTexture2D::125998101850083318::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/gem/::1716583854
+gem-1.png::CompressedTexture2D::5880418144326770076::1716583854::1716583854::1::::<><>::
+gem-2.png::CompressedTexture2D::8463800099441987392::1716583854::1716583854::1::::<><>::
+gem-3.png::CompressedTexture2D::2866055624969258045::1716583854::1716583854::1::::<><>::
+gem-4.png::CompressedTexture2D::4094811097202203130::1716583854::1716583854::1::::<><>::
+gem-5.png::CompressedTexture2D::4135732000945000161::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/tile set/::1716583854
+::res://captin clown game resources/tile set/BG/::1716583855
+BG.png::CompressedTexture2D::3905215996523026049::1716583854::1716583855::1::::<><>::
+middle.png::CompressedTexture2D::7660860462224235461::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/tile set/Object/::1716583855
+Bush (1).png::CompressedTexture2D::6094708669064532159::1716583854::1716583854::1::::<><>::
+Bush (2).png::CompressedTexture2D::8767252461558673054::1716583854::1716583854::1::::<><>::
+Bush (3).png::CompressedTexture2D::2260845951182979715::1716583854::1716583854::1::::<><>::
+Bush (4).png::CompressedTexture2D::6063810171891423627::1716583854::1716583854::1::::<><>::
+Crate.png::CompressedTexture2D::185346902889521958::1716583854::1716583855::1::::<><>::
+Mushroom_1.png::CompressedTexture2D::5908914995472144066::1716583854::1716583855::1::::<><>::
+Mushroom_2.png::CompressedTexture2D::806248553461380985::1716583854::1716583855::1::::<><>::
+props.png::CompressedTexture2D::2440819070118104269::1716583854::1716583855::1::::<><>::
+Sign_1.png::CompressedTexture2D::7727236848872019709::1716583854::1716583854::1::::<><>::
+Sign_2.png::CompressedTexture2D::8947087919673484289::1716583854::1716583854::1::::<><>::
+Stone.png::CompressedTexture2D::451400937804490592::1716583854::1716583854::1::::<><>::
+tree-house.png::CompressedTexture2D::3453875396530609457::1716583854::1716583854::1::::<><>::
+Tree_1.png::CompressedTexture2D::8555660953131840991::1716583854::1716583854::1::::<><>::
+Tree_2.png::CompressedTexture2D::1833669153514319582::1716583854::1716583854::1::::<><>::
+Tree_3.png::CompressedTexture2D::5112295322317721783::1716583854::1716583854::1::::<><>::
+::res://captin clown game resources/tile set/Tiles/::1716583854
+1.png::CompressedTexture2D::5527586255101049319::1716583854::1716583854::1::::<><>::
+2.png::CompressedTexture2D::1372455301298517109::1716583854::1716583854::1::::<><>::
+3.png::CompressedTexture2D::4978098341573936176::1716583854::1716583854::1::::<><>::
+4.png::CompressedTexture2D::783327285821107124::1716583854::1716583854::1::::<><>::
+5.png::CompressedTexture2D::3908962531685652853::1716583854::1716583854::1::::<><>::
+6.png::CompressedTexture2D::7697423190677585077::1716583854::1716583854::1::::<><>::
+7.png::CompressedTexture2D::8062506737707281884::1716583854::1716583854::1::::<><>::
+8.png::CompressedTexture2D::3220554228294080613::1716583854::1716583854::1::::<><>::
+9.png::CompressedTexture2D::5643943900277470582::1716583854::1716583854::1::::<><>::
+10.png::CompressedTexture2D::2127232546925163287::1716583854::1716583854::1::::<><>::
+11.png::CompressedTexture2D::4542151728806730833::1716583854::1716583854::1::::<><>::
+12.png::CompressedTexture2D::3273568271783598184::1716583854::1716583854::1::::<><>::
+13.png::CompressedTexture2D::7855289718364979237::1716583854::1716583854::1::::<><>::
+14.png::CompressedTexture2D::7304738046436312001::1716583854::1716583854::1::::<><>::
+15.png::CompressedTexture2D::1125090699954218770::1716583854::1716583854::1::::<><>::
+16.png::CompressedTexture2D::5049994772335689159::1716583854::1716583854::1::::<><>::
+17.png::CompressedTexture2D::2479036256582816412::1716583854::1716583854::1::::<><>::
+18.png::CompressedTexture2D::479780898022908906::1716583854::1716583854::1::::<><>::
+::res://gem/::1717954745
+gem.tscn::PackedScene::3856596256153808656::1717954745::0::1::::<><>::res://Gem.gd<>uid://cp1rvlvanjvsm::::res://captin clown game resources/gem/gem-1.png<>uid://dst6s0a53rnd5::::res://captin clown game resources/gem/gem-2.png<>uid://bg3lruef78o4d::::res://captin clown game resources/gem/gem-3.png<>uid://byls68h4ohtm5::::res://captin clown game resources/gem/gem-4.png<>uid://by6m5wrbjcenx::::res://captin clown game resources/gem/gem-5.png<>uid://dtv10cvmaxikm::::res://captin clown game resources/audio/sfx/sfx_coin_single1.wav
+::res://global/::1717251917
+game.gd::GDScript::-1::1717251917::0::1::::<>Node<>::
+::res://levels/::1717955055
+Collectables.gd::GDScript::-1::1717951040::0::1::::<>Node2D<>::
+GemsLabel.gd::GDScript::-1::1717943848::0::1::::<>Label<>::
+HpLabel.gd::GDScript::-1::1717943848::0::1::::<>Label<>::
+levelone.tscn::PackedScene::1663951745958374401::1717954745::0::1::::<><>::uid://ck0usj71jel3t::::res://captin clown game resources/tile set/Tiles/1.png<>uid://ts3ex4rpxk7f::::res://captin clown game resources/tile set/Tiles/2.png<>uid://b5yittd278oov::::res://captin clown game resources/tile set/Tiles/11.png<>uid://bmv0gq8ou74jc::::res://captin clown game resources/tile set/Tiles/12.png<>uid://dj6fqd6w66iev::::res://captin clown game resources/tile set/Tiles/13.png<>uid://dccp76ptm4bdp::::res://captin clown game resources/tile set/Tiles/14.png<>uid://qbacx3yqk0r3::::res://captin clown game resources/tile set/Tiles/15.png<>uid://cd7iw8s6i55wt::::res://captin clown game resources/tile set/Tiles/16.png<>uid://bbk4mn5fok57u::::res://captin clown game resources/tile set/Tiles/17.png<>uid://g3n6lar1aw7s::::res://captin clown game resources/tile set/Tiles/18.png<>uid://cc6os1suslq45::::res://captin clown game resources/tile set/Tiles/3.png<>uid://lfpjytb37lku::::res://captin clown game resources/tile set/Tiles/4.png<>uid://bvxsbokr4rv6l::::res://captin clown game resources/tile set/Tiles/5.png<>uid://dhwxo2iylkjl2::::res://captin clown game resources/tile set/Tiles/6.png<>uid://dm4skqcskpikq::::res://captin clown game resources/tile set/Tiles/7.png<>uid://bl5cb7ul3wx3b::::res://captin clown game resources/tile set/Tiles/8.png<>uid://cmn76w0uhqqlq::::res://captin clown game resources/tile set/Tiles/9.png<>uid://5kphd5tm7lj0::::res://captin clown game resources/tile set/Tiles/10.png<>uid://bvvylppwlbdnd::::res://captin clown game resources/tile set/BG/BG.png<>uid://dhe8it7d2d5bd::::res://captin clown game resources/tile set/BG/middle.png<>uid://bgec00etanelv::::res://player/Player.tscn<>uid://dknryf3gbpvgx::::res://tooth_man.tscn<>res://levels/HpLabel.gd<>res://levels/GemsLabel.gd<>res://levels/Collectables.gd
+main_menu.tscn::PackedScene::6655919990179269159::1717955055::0::1::::<><>::res://MainMenu.gd<>res://levels/parallax_bg.gd<>uid://bvvylppwlbdnd::::res://captin clown game resources/tile set/BG/BG.png<>uid://1eii7dffj7g1::::res://captin clown game resources/tile set/Object/Tree_2.png<>uid://ce3o00e2wgarf::::res://captin clown game resources/tile set/Object/Tree_3.png<>uid://bphc28tu20yp2::::res://captin clown game resources/tile set/Object/tree-house.png<>uid://dhe8it7d2d5bd::::res://captin clown game resources/tile set/BG/middle.png
+parallax_bg.gd::GDScript::-1::1716589442::0::1::::<>ParallaxBackground<>::
+parallax_bg.tscn::PackedScene::9127347012908495676::1717954745::0::1::::<><>::uid://bvvylppwlbdnd::::res://captin clown game resources/tile set/BG/BG.png<>res://levels/parallax_bg.gd<>uid://1eii7dffj7g1::::res://captin clown game resources/tile set/Object/Tree_2.png<>uid://ce3o00e2wgarf::::res://captin clown game resources/tile set/Object/Tree_3.png<>uid://bphc28tu20yp2::::res://captin clown game resources/tile set/Object/tree-house.png<>uid://dhe8it7d2d5bd::::res://captin clown game resources/tile set/BG/middle.png
+::res://player/::1717954745
+Player.gd::GDScript::-1::1717792259::0::1::::<>CharacterBody2D<>::
+Player.tscn::PackedScene::2815978655497450083::1717954745::0::1::::<><>::uid://11jw7287uuq5::::res://captin clown game resources/Captain Clown/01-Idle/Idle 01.png<>res://player/Player.gd<>uid://d06xy4apthbfq::::res://captin clown game resources/Captain Clown/08-Dead Ground/Dead Ground 01.png<>uid://cedma3ikhk5x6::::res://captin clown game resources/Captain Clown/01-Idle/Idle 02.png<>uid://djiwmniqsifl5::::res://captin clown game resources/Captain Clown/08-Dead Ground/Dead Ground 02.png<>uid://cwf00aac3j36j::::res://captin clown game resources/Captain Clown/01-Idle/Idle 03.png<>uid://kf2geu44qj1l::::res://captin clown game resources/Captain Clown/08-Dead Ground/Dead Ground 03.png<>uid://khq5l676tb8h::::res://captin clown game resources/Captain Clown/01-Idle/Idle 04.png<>uid://cgm1u7eh128v5::::res://captin clown game resources/Captain Clown/01-Idle/Idle 05.png<>uid://k8fs88cm8mqp::::res://captin clown game resources/Captain Clown/08-Dead Ground/Dead Ground 04.png<>uid://biwsqyx20wwek::::res://captin clown game resources/Captain Clown/03-Jump/Jump 02.png<>uid://b0fpvrrhnswmj::::res://captin clown game resources/Captain Clown/04-Fall/Fall 01.png<>uid://ytwli10x72p3::::res://captin clown game resources/Captain Clown/02-Run/Run 01.png<>uid://bu3cuqw6dcw6b::::res://captin clown game resources/Captain Clown/02-Run/Run 02.png<>uid://c2gufykp6gcok::::res://captin clown game resources/Captain Clown/02-Run/Run 03.png<>uid://di7kn1t2vg8js::::res://captin clown game resources/Captain Clown/02-Run/Run 04.png<>uid://deaccorsccxh::::res://captin clown game resources/Captain Clown/02-Run/Run 05.png<>uid://djfwnohx6yb04::::res://captin clown game resources/Captain Clown/02-Run/Run 06.png<>uid://enc0c4otcsw8::::res://captin clown game resources/audio/sfx/sfx_movement_jump1.wav

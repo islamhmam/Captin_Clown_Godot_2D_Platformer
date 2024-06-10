@@ -1,0 +1,166 @@
+[gd_scene load_steps=28 format=3 uid="uid://dknryf3gbpvgx"]
+
+[ext_resource type="Texture2D" uid="uid://th8sbve5xvg5" path="res://captin clown game resources/Fierce Tooth/enemy-deadth.png" id="1_1y1cm"]
+[ext_resource type="Script" path="res://tooth_man.gd" id="1_ep7o5"]
+[ext_resource type="Texture2D" uid="uid://o66xs0wjgi7u" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 01.png" id="2_dxfpw"]
+[ext_resource type="Texture2D" uid="uid://wuc8fnt73y3e" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 02.png" id="3_n58bo"]
+[ext_resource type="Texture2D" uid="uid://c7gjy7wkfstgr" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 03.png" id="4_mwuin"]
+[ext_resource type="Texture2D" uid="uid://bwqfhncai12wh" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 04.png" id="5_12xmm"]
+[ext_resource type="Texture2D" uid="uid://buwimqpmcws1s" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 05.png" id="6_jcdu7"]
+[ext_resource type="Texture2D" uid="uid://djmx7djflkpqv" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 06.png" id="7_klotb"]
+[ext_resource type="Texture2D" uid="uid://cj4o3p010ijkq" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 07.png" id="8_4hwgw"]
+[ext_resource type="Texture2D" uid="uid://p5yk645oe4lk" path="res://captin clown game resources/Fierce Tooth/01-Idle/Idle 08.png" id="9_t3jg7"]
+[ext_resource type="Texture2D" uid="uid://bhnysibsr2lc5" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 01.png" id="10_i5w4f"]
+[ext_resource type="Texture2D" uid="uid://dp7qfujx8od10" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 02.png" id="11_3xqnn"]
+[ext_resource type="Texture2D" uid="uid://kwrwyf116lo8" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 03.png" id="12_a6sql"]
+[ext_resource type="Texture2D" uid="uid://brruskibei5a8" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 04.png" id="13_k7oxp"]
+[ext_resource type="Texture2D" uid="uid://cwvw1sv2wusu4" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 05.png" id="14_05xdp"]
+[ext_resource type="Texture2D" uid="uid://bro5tw1v4s3wu" path="res://captin clown game resources/Fierce Tooth/02-Run/Run 06.png" id="15_cgmah"]
+[ext_resource type="AudioStream" uid="uid://bmlnqjnrmpado" path="res://captin clown game resources/audio/sfx/sfx_sounds_fanfare3.wav" id="17_uff0v"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_p5mgo"]
+radius = 3.0
+height = 16.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vnmg1"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(0, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o0yu7"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(40, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f71w2"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(80, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ebuu1"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(120, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_55m32"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(160, 0, 40, 41)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xprj0"]
+atlas = ExtResource("1_1y1cm")
+region = Rect2(200, 0, 40, 41)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vvuul"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vnmg1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o0yu7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f71w2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ebuu1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_55m32")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xprj0")
+}],
+"loop": false,
+"name": &"death",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_dxfpw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_n58bo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_mwuin")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_12xmm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_jcdu7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_klotb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_4hwgw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_t3jg7")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_i5w4f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_3xqnn")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_a6sql")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_k7oxp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_05xdp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_cgmah")
+}],
+"loop": true,
+"name": &"run",
+"speed": 11.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_3b1fv"]
+radius = 139.004
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_sinne"]
+size = Vector2(19, 10)
+
+[node name="ToothMan" type="CharacterBody2D"]
+script = ExtResource("1_ep7o5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 6)
+shape = SubResource("CapsuleShape2D_p5mgo")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vvuul")
+animation = &"death"
+
+[node name="PlayerDetection" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="PlayerDetection"]
+shape = SubResource("CircleShape2D_3b1fv")
+
+[node name="HurtArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtArea"]
+position = Vector2(0.5, 5)
+shape = SubResource("RectangleShape2D_sinne")
+
+[node name="EnemyDeath" type="Area2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="EnemyDeath"]
+polygon = PackedVector2Array(0, 0, 9, -6, 9, -6, 10, -9, -9, -9, -8, -6)
+
+[node name="EnemyDeathAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_uff0v")
+
+[connection signal="body_entered" from="PlayerDetection" to="." method="_on_player_detection_body_entered"]
+[connection signal="body_exited" from="PlayerDetection" to="." method="_on_player_detection_body_exited"]
+[connection signal="body_entered" from="HurtArea" to="." method="_on_hurt_area_body_entered"]
+[connection signal="body_entered" from="EnemyDeath" to="." method="_on_enemy_death_body_entered"]

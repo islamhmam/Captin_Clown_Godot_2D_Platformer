@@ -1,0 +1,7 @@
+res://levels/parallax_bg.tscn
+res://levels/levelone.tscn
+res://player/Player.tscn
+res://tooth_man.tscn
+res://gem/gem.tscn
+res://audioManager/background_audio.tscn
+res://levels/main_menu.tscn

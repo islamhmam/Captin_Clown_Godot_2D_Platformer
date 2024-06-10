@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dmxul3wjkysof"
+path="res://.godot/imported/stage_2.ogg-fb0b84c91b41514f1346207fe201fbfe.oggvorbisstr"
+
+[deps]
+
+source_file="res://captin clown game resources/audio/music/stage_2.ogg"
+dest_files=["res://.godot/imported/stage_2.ogg-fb0b84c91b41514f1346207fe201fbfe.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dtv10cvmaxikm"
+path="res://.godot/imported/sfx_coin_single1.wav-292193653d48fc016e0b5777b3450e18.sample"
+
+[deps]
+
+source_file="res://captin clown game resources/audio/sfx/sfx_coin_single1.wav"
+dest_files=["res://.godot/imported/sfx_coin_single1.wav-292193653d48fc016e0b5777b3450e18.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

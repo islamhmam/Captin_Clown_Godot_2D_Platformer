@@ -1,0 +1,51 @@
+[gd_scene load_steps=10 format=3 uid="uid://bu7ftu42vyyhs"]
+
+[ext_resource type="Script" path="res://Gem.gd" id="1_ty8c8"]
+[ext_resource type="Texture2D" uid="uid://cp1rvlvanjvsm" path="res://captin clown game resources/gem/gem-1.png" id="2_076in"]
+[ext_resource type="Texture2D" uid="uid://dst6s0a53rnd5" path="res://captin clown game resources/gem/gem-2.png" id="3_dwxul"]
+[ext_resource type="Texture2D" uid="uid://bg3lruef78o4d" path="res://captin clown game resources/gem/gem-3.png" id="4_s42nu"]
+[ext_resource type="Texture2D" uid="uid://byls68h4ohtm5" path="res://captin clown game resources/gem/gem-4.png" id="5_8p61d"]
+[ext_resource type="Texture2D" uid="uid://by6m5wrbjcenx" path="res://captin clown game resources/gem/gem-5.png" id="6_xn4gg"]
+[ext_resource type="AudioStream" uid="uid://dtv10cvmaxikm" path="res://captin clown game resources/audio/sfx/sfx_coin_single1.wav" id="7_20gie"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_v3la5"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_holug"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_076in")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_dwxul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_s42nu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_8p61d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_xn4gg")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}]
+
+[node name="Gem" type="Area2D"]
+script = ExtResource("1_ty8c8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_v3la5")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_holug")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.374357
+
+[node name="CoinAudio" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_20gie")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
